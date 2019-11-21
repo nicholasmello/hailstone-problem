@@ -9,7 +9,7 @@ fn main() {
 	}
 }
 
-fn 	hailstone(mut num: u64) -> Vec<u64> {
+fn hailstone(mut num: u64) -> Vec<u64> {
 	let mut list: Vec<u64> = vec!();
 	list.push(num);
 	while num != 1 {
